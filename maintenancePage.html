@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TheGreydiamond - Maintanance</title>
+    <meta
+      name="description"
+      content="TheGreydiamond - Currently undergoing maintanance"
+    />
+    <meta name="author" content="TheGreydiamond" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: url("https://source.unsplash.com/qzgN45hseN0/1920x1080");
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        font-family: "Open Sans", sans-serif;
+        color: white;
+        transition: all 1s ease;
+      }
+
+      .main {
+        position: relative;
+        top: 10vw;
+      }
+
+      .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        width: 20%;
+        font-size: large;
+        background-color: rgba(0, 0, 0, 0.37);
+      }
+
+      .div1 {
+        grid-area: 1 / 1 / 2 / 2;
+        padding: 5%;
+      }
+      .div2 {
+        grid-area: 2 / 1 / 3 / 2;
+        padding: 5%;
+      }
+    </style>
+  </head>
+  <div class="main">
+    <center>
+      <h1>We are currently undergoing maintanance</h1>
+
+      <div class="parent">
+        <div class="div1">
+          Wir ziehen gerade den Server um, weswegen die Website nicht erreichbar
+          ist. Die Website sollte bald wieder online sein. Tut uns leid.
+        </div>
+        <div class="div2">
+          We are currently moving the server to a diffrent hoster, this causes
+          some downtime. The webpage should be back soon. We are sorry.
+        </div>
+      </div>
+    </center>
+  </div>
+
+  <body></body>
+</html>
